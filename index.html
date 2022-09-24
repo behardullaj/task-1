@@ -80,7 +80,86 @@
                                     <dt><strong>What size pan to use?</strong></dt>
                                     <dd>This particular tiramisu recipe yields a large volume and the pan will be very full. Make sure your pan is large enough. I recommend a 9×13 inch dish with at least a 12-14 cup capacity. This 4 quart dish is wonderful too.</dd>
                                 </dl>
+                                <form method="get" >
+                                    
+                                        <br>
+                                        <fieldset>
+                                        <legend><h3>>Order Tiramisu and More</h3></legend>
+                                        <p><strong>What size do you like?</strong></p>
+                                        <input type="radio" name=size  value="small" id="small"/>
+                                        <label for="small">Small</label>
+                                        <input type="number" value="grade" min="0" max="10"/>
+                                        <br>
+                                        <input type="radio" name=size value="medium" id="medium"/>
+                                        <label for="medium">Medium</label>
+                                        <input type="number" value="grade" min="0" max="10"/>
+                                        <br>
+                                        <input type="radio" name=size  value="large" id="large"/>
+                                        <label for="large">Large</label>
+                                        <input type="number" value="grade" min="0" max="10"/>
+                                        <br>
+                                        <p><strong>Please choose your drinks...</strong></p>
+                                        <label for="Drinks">Drinks</label>
+                                        <select name="Drinks" id="Drinks">
+                                            <option value="">Coca Cola </option>
+                                            <option value="">Fanta</option>
+                                            <option value="">Red bull</option>
+                                            <option value="">Water </option>
+                                            <option value="">Mineral water</option>
+                                        </select>
+                                        <br>
+                                        <label for="Coffee">Coffee</label>
+                                         <select name="Drinks" id="Coffee">
+                                            <optgroup label="Types of Coffee">
+                                                <option value="">Espresso</option>
+                                                <option value="">Cappuccino</option>
+                                                <option value="">Macchiato</option>
+                                                <option value="">Black coffee</option>
+                                            </optgroup>
+                                        </select>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <p><h2>We are here!</h2></p>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.6765544115437!2d-74.1244745846878!3d40.900909433973986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fbf85eb9908d%3A0x3a7dddd36b47ff69!2sTiramisu%20Restaurante!5e0!3m2!1sen!2s!4v1664048727524!5m2!1sen!2s" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <br>
+                                        <br>
+
+                                        <p><h2>VIDEO TIRAMISU:</h2></p>
+                                        <video src="./tiramisu.mp4" controls width="700">Video Tiramisu</video>
+
+                                        <br>
+                                        <br>
+                                    
+                                            <h3>Personal data </h3>
+                                            <input type="text" name="username " placeholder="username"/>
+                                            <br>
+                                            <input type="password" name="password" placeholder="password"/>
+                                            <br>
+                                            <input type="tel" name="number"   placeholder="Nr.tel" />
+                                            <br>
+                                            <input type="date" name="birthday" />
+                                            <br>
+                                            <br>
+                                            <input type="checkbox" name="gender" value="male" id="male"/>
+                                            <label for="male">Male</label>
+                                            <input type="checkbox" name="gender" value="female" id="female"/>
+                                            <label for="female">Female</label>
+                                            <br>
+                                            <br>
+                                            <textarea name="Message" id="Message" placeholder="Message" cols="45" rows="10"></textarea>
+                                            <br>
+                                            <br>
+                                            <input type="submit" value="Submit">
+                                            <input type="reset" value="Reset" >
+                                        </fieldset>    
+                                        
+                      
+                    
+                                    
+                                </form>
                                 </td>
+                                
 
 
                             </tr>
@@ -92,5 +171,6 @@
                 </td>
             </tr>
         </thead>
-</body>
+        
+    </body>
 </html>
